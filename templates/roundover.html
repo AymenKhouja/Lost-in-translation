@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Over</title>
+    <link rel="stylesheet" href="static/css_end.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Game Over</h1>
+    <h2>Scores:</h2>
+    <ul>
+        {% for j in range(players|length) %}
+        <li><strong>{{ players[j].player_name }}:</strong></li>
+        <ul>
+            {% for i in range(players[j].score["Round " + current_round|string]|length) %}
+            <li><strong>Prompt:</strong> {{ prompts[i] }},<strong>Guess:</strong> {{ players[j].guesses["Round " + current_round|string][i] }}, <strong>Score:</strong> {{ players[j].score["Round " + current_round|string][i] }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </ul>
+    <form method="POST" action="/roundover">
+        <button type="submit">Continue</button>
+    </form>
+</body>
+</html>
+

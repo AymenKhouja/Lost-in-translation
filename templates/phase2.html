@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game - Phase 2</title>
+    <link rel="stylesheet" href="static/css2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <h1>Player {{ current_guesser }} Guess the Prompt</h1>
+    <h2>AI Drawing:</h2>
+    <div class="image-container">
+    <img class="centered-image" src="static/robot_guess.png" alt="Image" width="400">
+	<img src="{{ img }}" alt="AI Drawing">
+        
+    </div>
+    <form method="POST" action="/phase2">
+        <label for="guess">Your Guess:</label>
+        <input type="text" name="guess" id="guess">
+        <button type="submit">Submit Guess</button>
+    </form>
+</body>
+</html>

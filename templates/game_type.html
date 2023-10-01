@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Mode Selection</title>
+    <link rel="stylesheet" href="static/type.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function selectGameMode(mode) {
+            // Set the value of the hidden input field to the selected mode
+            document.getElementById('game-mode').value = mode;
+            
+            // Submit the form to send the choice to Flask
+            document.getElementById('mode-form').submit();
+        }
+    </script>
+</head>
+<body>
+    <h1>Select a Game Mode</h1>
+    <div class="image-container">
+    <!-- Individual Game Mode -->
+    <span class = "image_indiv">
+    <img src="static/person_pic.png" alt="Individual Mode" onclick="selectGameMode('individual')">
+    <h2> Individual mode </h2> 
+    </span>
+    <!-- Team Game Mode -->
+    <span class = "image_team">
+    <img src="static/team_pic.png" alt="Team Mode" onclick="selectGameMode('team')">
+    <h2> Team mode </h2>
+    </span>
+    </div>
+    <!-- Hidden form to send the choice to Flask -->
+    <form id="mode-form" action="/welcome" method="post">
+        <input type="hidden" id="game-mode" name="game-mode">
+    </form>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,24 @@
+
+        <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to the Game</title>
+        
+        <link rel="stylesheet" href="static/welcome.css">
+    </head>
+    <body>
+        <h1>Welcome to the Game</h1>
+        <form method="POST" action="/team_config">
+            <label for="num-teams">Number of Teams:</label>
+            <input type="number" name="num-teams" id="num-teams" required>
+            <label for="num-players">Number of Players per team:</label>
+            <input type="number" name="num-players" id="num-players" required>
+            <label for="num-rounds">Number of Rounds:</label>
+            <input type="number" name="num-rounds" id="num-rounds" required>
+            <button type="submit">Start Game</button>
+        </form>
+    </body>
+    </html>
+
+    

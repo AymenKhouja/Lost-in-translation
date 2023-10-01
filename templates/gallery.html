@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="static/gallerycss.css">
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div class="image-container">
+        {% for round in prompts %}
+	{% for image in prompts[round] %}
+        <div class="image-box" onclick="openImage('{{ image }}.jpg')">
+            <img src="static/image/{{ image }}.jpg" alt="{{ image }}">
+	<div class="image-tooltip">{{ image }}</div>
+        </div>
+	{% endfor %}
+        {% endfor %}
+    </div>
+	<form method="POST" action="/gallery">
+
+        <button type="submit">Play Again</button>
+
+    </form>
+    <script>
+        function openImage(imagePath) {
+            window.open("static/image/" + imagePath, "_blank");
+        }
+    </script>
+</body>
+</html>
