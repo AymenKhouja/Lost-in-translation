@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game - Phase 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css1.css">
+    <script type="text/javascript" src="static/script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+	<h1>Player {{ current_player }} Enter Your Prompt</h1>
+	<form method="POST" action="/phase1">
+            <label for="prompt">Enter Your Prompt:</label>
+            <input type="text" name="prompt" id="prompt" required>
+	    <div class="popup" onclick="myFunction()">
+	    <button type="submit",id="submit-button">Submit</button>
+  <span class="popuptext" id="myPopup"> <div>This might take up to 1 minute! <br><br> Time left: <span id="time">01:00</span> <br>  <br> <b>Did you know :</b> {{fact}}</div>
+        </form>
+</div>
+</div>
+<div class="image-container">
+ <div class="centered-image">
+	<img src="static/robot_pic.png" alt="Image" width="400">
+ </div>
+</div>
+</body>
+</html>
+
