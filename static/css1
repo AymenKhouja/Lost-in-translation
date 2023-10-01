@@ -1,0 +1,120 @@
+
+  body {
+    background: linear-gradient(to bottom right, #179CD7, #DE5E83);
+    font-family: 'Roboto', sans-serif;
+    
+    display : flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: 50vh;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 50px; /* Adjust spacing between form and image */
+}
+h1 {
+    font-size: 36px;
+    color: #179CD7;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    
+    align-items: center;
+    margin-top: 20px;
+}
+
+.centered-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+        label {
+            font-size: 18px;
+            color: #179CD7;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #179CD7;
+            margin-bottom: 20px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #DE5E83;
+        }
+
+        button[type="submit"] {
+            background-color: #DE5E83;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #D63D63;
+        }
+.popup {
+  position: relative;
+  
+  cursor: pointer;
+  margin-right : 400px;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 600px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 100%;
+  right : 50%;
+}
+
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
