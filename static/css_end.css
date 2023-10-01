@@ -1,0 +1,66 @@
+
+body {
+            background-color: #7E71B4;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-image: linear-gradient(to bottom right, #179CD7, #DE5E83);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            font-size: 18px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        li:last-child {
+            margin-bottom: 20px;
+        }
+        
+        /* Style the player name, prompt, and score elements */
+        li strong {
+            font-weight: bold;
+            color: white;
+        }
+        
+        button[type="submit"] {
+            background-color: #DE5E83;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #D63D63;
+        }
+
+

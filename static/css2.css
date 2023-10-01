@@ -1,0 +1,91 @@
+
+ body {
+            background-color: #7E71B4;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-image: linear-gradient(to bottom right, #179CD7, #DE5E83);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: white;
+            text-align: center;
+            margin-top: 10px; /* Add margin-top to push the title down */
+        }
+
+        h2 {
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between; /* Images will be evenly spaced */
+            align-items: center; /* Vertically align images */
+            width: 100%; /* Make the container full-width */
+            max-width: 400px; /* Limit the maximum width to avoid overflow */
+            margin-top: 20px; /* Add margin to separate images from the form */
+	    margin-right : 1075px;
+        }
+
+        .centered-image {
+            max-width: 100%;
+            height: auto;
+	    margin-right: 150px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            font-size: 18px;
+            color: #179CD7;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #179CD7;
+            margin-bottom: 20px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        button[type="submit"] {
+            background-color: #DE5E83;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #D63D63;
+        }
+

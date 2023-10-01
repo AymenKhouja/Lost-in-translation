@@ -1,0 +1,51 @@
+
+        body {
+            background-color: #7E71B4;
+                font-family: 'Helvetica Neue', sans-serif;
+                background-image: linear-gradient(to bottom right, #179CD7, #DE5E83);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                color : white;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image_team, image_indiv{
+            display : flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .image_indiv{
+            margin-right: 50px;
+        }
+
+        .image-container img {
+            cursor: pointer;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        #mode-form {
+            display: inline;
+        }
