@@ -29,7 +29,6 @@ The repository contains many files, all created to make the distinction between 
   * ServerLogic.py : Contains important functionalities that allows the webapp to function such as storing important info in session to use later and updating session when necessary.
   * ImageGeneration.py : Contains important Functionalities regarding the image generation process, in it there are different functions to generate images using two different APIs - Hugging face's api or WizModel's api, as well as generating using the diffusers package if a powerful gpu is available.
   * LostInTranslation: Contains the structure of the web app, and brings everything together nicely to make the game funtion. Keep in mind that in this file, we are assuming that to generate the image you are using Wizmodel's apî (as seen through the code) this could be changed however through the code, or by further tuning to the code in ImageGeneration.py to allow further flexibility, or by changing the arguments that the function gets.
-  * 
 ## Usage 🚀
 
 To use this app, simply make a pull request or download the app, after providing a wizmodel api key you can enjoy the game with your friends. 📝
