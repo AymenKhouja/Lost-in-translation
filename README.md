@@ -23,7 +23,7 @@ Lost in translation's core revolves around a continuous loop of communication an
 ### Scoring and Strategy:
 After each round, scores for each prompt are revealed. This dual scoring system highlights both the team's ability to craft challenging prompts and their adeptness at interpreting AI-generated images. The game concludes with an overall score presentation, showcasing each team's cumulative performance.
 
-You can learn more through this [interactive presentation](https://docs.google.com/presentation/d/10Fure-nI3lnS3E8w4YUZkIH7qAo5kfkx_jl8mTM_yrU/edit?usp=sharing)
+You can learn more through this [presentation](https://docs.google.com/presentation/d/10Fure-nI3lnS3E8w4YUZkIH7qAo5kfkx_jl8mTM_yrU/edit?usp=sharing)
 Furthermore you can watch a demo through [this link](https://drive.google.com/file/d/1lb4zQ8ACkstcP_Y93E5inLAgXdKkkyoK/view?usp=sharing)
 
 ### Repository files: 
