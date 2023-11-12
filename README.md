@@ -12,7 +12,7 @@ Lost in translation gets its name from the fact that the stable diffusion model 
 ## Description 📑
 
 ### Game Modes:
-Lost in Translation offers two distinct modes of play. In Individual Mode, players navigate the challenge on their own, while Team Mode introduces a collaborative dimension. In Team Mode, players decide team sizes and the number of rounds, setting the stage for an engaging collective experience.
+Lost in Translation offers two distinct modes of play. In Individual Mode, players navigate the challenge on their own (still not implemented), while Team Mode introduces a collaborative dimension. In Team Mode, players decide team sizes and the number of rounds, setting the stage for an engaging collective experience.
 
 ### Team Mode Setup:
 Team Mode puts the decision-making in the hands of players. Choose how many members will form each team and determine the number of rounds per game. A round, defined by a sequence of turns, adds an element of strategy to the gameplay.
@@ -22,6 +22,9 @@ Lost in translation's core revolves around a continuous loop of communication an
 
 ### Scoring and Strategy:
 After each round, scores for each prompt are revealed. This dual scoring system highlights both the team's ability to craft challenging prompts and their adeptness at interpreting AI-generated images. The game concludes with an overall score presentation, showcasing each team's cumulative performance.
+
+You can learn more through this [interactive presentation](https://docs.google.com/presentation/d/10Fure-nI3lnS3E8w4YUZkIH7qAo5kfkx_jl8mTM_yrU/edit?usp=sharing)
+Furthermore you can watch a demo through [this link](https://drive.google.com/file/d/1lb4zQ8ACkstcP_Y93E5inLAgXdKkkyoK/view?usp=sharing)
 
 ### Repository files: 
 The repository contains many files, all created to make the distinction between different elements that are then joined together in the LostInTranslation.py
