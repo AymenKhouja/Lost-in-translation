@@ -34,7 +34,7 @@ The repository contains many files, all created to make the distinction between 
   * LostInTranslation: Contains the structure of the web app, and brings everything together nicely to make the game funtion. Keep in mind that in this file, we are assuming that to generate the image you are using Wizmodel's apî (as seen through the code) this could be changed however through the code, or by further tuning to the code in ImageGeneration.py to allow further flexibility, or by changing the arguments that the function gets.
 ## Usage 🚀
 
-To use this app, simply make a pull request, after providing a wizmodel api key you can enjoy the game with your friends. 📝
+To use this app, you can download the code, after providing a wizmodel api key in LostInTranslation.py, you can enjoy the game with your friends. 📝
 
 ## Requirements 🛠️
 
