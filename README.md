@@ -4,7 +4,7 @@
 
 Welcome to the Lost in Translation game Repository! 🚀 This repository contains a fun game laveraging generative AI, specifically Stable-diffusion and Stable Diffusion XL to provide an engaging and fun adversial, gartic-style game.
 
-The primary aim of this repository is to share a game that showcases the capability of Generative AI and collaborate on imroving a fun game that involve state of the art models in AI 🌟
+The primary aim of this repository is to share a game that showcases the capability of Generative AI and collaborate on improving a fun game that involve state of the art models in AI 🌟
 
 
 Lost in translation gets its name from the fact that the stable diffusion model may not always be accurate and the generated image at times may not represent the prompt as accurately as possible, therefore there is information lost in translation procss (the translation in this case being text to image)
